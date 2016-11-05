@@ -18,7 +18,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    /*
+     *To get the iOS app version
+     
+     */
     [self snippets];
+    
 }
 
 
@@ -33,5 +38,7 @@
     NSLog(@"iOSVersion %@",iOSVersion);
     
 }
+
+
 
 @end

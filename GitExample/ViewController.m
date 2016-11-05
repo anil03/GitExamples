@@ -39,13 +39,13 @@
     NSLog(@"iOSVersion %@",iOSVersion);
     
 }
-///*
-// * now we are working on brach1
-// * all changes made on brach1 remain here only util we speacifically merge to origin
-//*/
-//-(void)brach1{
-//    NSLog(@"Brach1 is created.");
-//}
+/*
+ * now we are working on brach1
+ * all changes made on brach1 remain here only util we speacifically merge to origin
+*/
+-(void)brach1{
+    NSLog(@"Brach1 is created.");
+}
 
 
 

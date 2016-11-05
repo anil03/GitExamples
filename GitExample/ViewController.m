@@ -25,5 +25,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void) snippets{
+    
+    NSString *iOSVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    NSLog(@"iOSVersion %@",iOSVersion);
+    
+}
 
 @end

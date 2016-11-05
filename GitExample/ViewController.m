@@ -21,6 +21,7 @@
     /*
      *To get the iOS app version
      *Again updated Git Comment
+     *Compaire version between Local and Remote repository.
      */
     [self snippets];
     
@@ -37,6 +38,13 @@
     NSString *iOSVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     NSLog(@"iOSVersion %@",iOSVersion);
     
+}
+/*
+ * now we are working on brach1
+ * all changes made on brach1 remain here only util we speacifically merge to origin
+*/
+-(void)brach1{
+    NSLog(@"Brach1 is created.")
 }
 
 
